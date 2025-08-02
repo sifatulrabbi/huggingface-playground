@@ -18,11 +18,6 @@ model = pipeline(
     max_length=1024 * 10,
 )
 
-# response = model(
-#     "I am a haiku writer who is expert in writing haikus.\n\nUSER: Write me a haiku about rain.\n\nOkay I now have to write a haiku about rain, here I go.\n"
-# )
-# ic(response)
-
 chain = PromptTemplate.from_template(
     "Explain {topic} in detail for a {age} year old to understand.\n\n",
 ) | HuggingFacePipeline(pipeline=model)
