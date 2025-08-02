@@ -10,9 +10,9 @@ with open("./json_output.txt", "r") as f:
             data.append(currobj)
             currobj = {}
         elif line.startswith("{"):
-            currobj["input"] = line.strip()
-        else:
             currobj["output"] = line.strip()
+        else:
+            currobj["input"] = line.strip()
         line = f.readline()
 
     with open("./json_output.json", "w") as outfile:

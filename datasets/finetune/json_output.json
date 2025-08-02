@@ -1,447 +1,447 @@
 [
   {
-    "output": "What is the weather forecast for New York on 2025-08-05?",
-    "input": "{\"response\":{\"location\":\"New York\",\"date\":\"2025-08-05\",\"forecast\":\"Partly Cloudy\",\"high\":29,\"low\":22,\"units\":\"C\"}}"
+    "input": "What is the weather forecast for New York on 2025-08-05?",
+    "output": "{\"response\":{\"location\":\"New York\",\"date\":\"2025-08-05\",\"forecast\":\"Partly Cloudy\",\"high\":29,\"low\":22,\"units\":\"C\"}}"
   },
   {
-    "output": "Translate the sentence 'Knowledge is power' into German.",
-    "input": "{\"response\":{\"original\":\"Knowledge is power\",\"translation\":\"Wissen ist Macht\",\"target_language\":\"German\"}}"
+    "input": "Translate the sentence 'Knowledge is power' into German.",
+    "output": "{\"response\":{\"original\":\"Knowledge is power\",\"translation\":\"Wissen ist Macht\",\"target_language\":\"German\"}}"
   },
   {
-    "output": "Convert 72 degrees Fahrenheit to Celsius.",
-    "input": "{\"response\":{\"input_value\":72,\"input_unit\":\"F\",\"output_value\":22.22,\"output_unit\":\"C\",\"precision\":2}}"
+    "input": "Convert 72 degrees Fahrenheit to Celsius.",
+    "output": "{\"response\":{\"input_value\":72,\"input_unit\":\"F\",\"output_value\":22.22,\"output_unit\":\"C\",\"precision\":2}}"
   },
   {
-    "output": "Calculate 15% tip on a bill of $85.",
-    "input": "{\"response\":{\"bill\":85,\"currency\":\"USD\",\"tip_percent\":15,\"tip_amount\":12.75,\"total_with_tip\":97.75}}"
+    "input": "Calculate 15% tip on a bill of $85.",
+    "output": "{\"response\":{\"bill\":85,\"currency\":\"USD\",\"tip_percent\":15,\"tip_amount\":12.75,\"total_with_tip\":97.75}}"
   },
   {
-    "output": "Provide the current stock price for AAPL.",
-    "input": "{\"response\":{\"symbol\":\"AAPL\",\"price\":174.50,\"currency\":\"USD\",\"timestamp\":\"2025-08-02T20:00:00Z\"}}"
+    "input": "Provide the current stock price for AAPL.",
+    "output": "{\"response\":{\"symbol\":\"AAPL\",\"price\":174.50,\"currency\":\"USD\",\"timestamp\":\"2025-08-02T20:00:00Z\"}}"
   },
   {
-    "output": "Analyze the sentiment of the review: 'The product quality was disappointing and customer service was unhelpful.'",
-    "input": "{\"response\":{\"text\":\"The product quality was disappointing and customer service was unhelpful.\",\"sentiment\":\"negative\",\"score\":0.12}}"
+    "input": "Analyze the sentiment of the review: 'The product quality was disappointing and customer service was unhelpful.'",
+    "output": "{\"response\":{\"text\":\"The product quality was disappointing and customer service was unhelpful.\",\"sentiment\":\"negative\",\"score\":0.12}}"
   },
   {
-    "output": "Generate a random user profile.",
-    "input": "{\"response\":{\"id\":\"f47ac10b-58cc-4372-a567-0e02b2c3d479\",\"name\":{\"first\":\"Emma\",\"last\":\"Johnson\"},\"email\":\"emma.johnson@example.com\",\"age\":28,\"country\":\"United States\"}}"
+    "input": "Generate a random user profile.",
+    "output": "{\"response\":{\"id\":\"f47ac10b-58cc-4372-a567-0e02b2c3d479\",\"name\":{\"first\":\"Emma\",\"last\":\"Johnson\"},\"email\":\"emma.johnson@example.com\",\"age\":28,\"country\":\"United States\"}}"
   },
   {
-    "output": "List the top 3 largest countries by area.",
-    "input": "{\"response\":{\"countries\":[{\"name\":\"Russia\",\"area_km2\":17098246},{\"name\":\"Canada\",\"area_km2\":9984670},{\"name\":\"United States\",\"area_km2\":9833517}]}}"
+    "input": "List the top 3 largest countries by area.",
+    "output": "{\"response\":{\"countries\":[{\"name\":\"Russia\",\"area_km2\":17098246},{\"name\":\"Canada\",\"area_km2\":9984670},{\"name\":\"United States\",\"area_km2\":9833517}]}}"
   },
   {
-    "output": "Summarize the following text: 'The rapid advancement of AI technologies has led to significant improvements in automation, data analysis, and decision-making processes across industries.'",
-    "input": "{\"response\":{\"original_text\":\"The rapid advancement of AI technologies has led to significant improvements in automation, data analysis, and decision-making processes across industries.\",\"summary\":\"AI advancements are enhancing automation, data analysis, and decision-making in various industries.\"}}"
+    "input": "Summarize the following text: 'The rapid advancement of AI technologies has led to significant improvements in automation, data analysis, and decision-making processes across industries.'",
+    "output": "{\"response\":{\"original_text\":\"The rapid advancement of AI technologies has led to significant improvements in automation, data analysis, and decision-making processes across industries.\",\"summary\":\"AI advancements are enhancing automation, data analysis, and decision-making in various industries.\"}}"
   },
   {
-    "output": "Reformat the date 'July 4, 2025' into ISO 8601 format.",
-    "input": "{\"response\":{\"original_date\":\"July 4, 2025\",\"formatted_date\":\"2025-07-04\"}}"
+    "input": "Reformat the date 'July 4, 2025' into ISO 8601 format.",
+    "output": "{\"response\":{\"original_date\":\"July 4, 2025\",\"formatted_date\":\"2025-07-04\"}}"
   },
   {
-    "output": "Convert 10 kilometers to miles.",
-    "input": "{\"response\":{\"input\":10,\"input_unit\":\"km\",\"output\":6.2137,\"output_unit\":\"mi\",\"precision\":4}}"
+    "input": "Convert 10 kilometers to miles.",
+    "output": "{\"response\":{\"input\":10,\"input_unit\":\"km\",\"output\":6.2137,\"output_unit\":\"mi\",\"precision\":4}}"
   },
   {
-    "output": "Generate a random strong password of length 12 including uppercase, lowercase, digits, and symbols.",
-    "input": "{\"response\":{\"password\":\"A3f!vX9#kLm2\",\"length\":12,\"has_uppercase\":true,\"has_lowercase\":true,\"has_digits\":true,\"has_symbols\":true}}"
+    "input": "Generate a random strong password of length 12 including uppercase, lowercase, digits, and symbols.",
+    "output": "{\"response\":{\"password\":\"A3f!vX9#kLm2\",\"length\":12,\"has_uppercase\":true,\"has_lowercase\":true,\"has_digits\":true,\"has_symbols\":true}}"
   },
   {
-    "output": "Extract all email addresses from the text: 'Contact us at help@example.com or sales@company.org for more info.'",
-    "input": "{\"response\":{\"text\":\"Contact us at help@example.com or sales@company.org for more info.\",\"emails\":[\"help@example.com\",\"sales@company.org\"]}}"
+    "input": "Extract all email addresses from the text: 'Contact us at help@example.com or sales@company.org for more info.'",
+    "output": "{\"response\":{\"text\":\"Contact us at help@example.com or sales@company.org for more info.\",\"emails\":[\"help@example.com\",\"sales@company.org\"]}}"
   },
   {
-    "output": "Translate 'Good morning' into Japanese.",
-    "input": "{\"response\":{\"original\":\"Good morning\",\"translation\":\"\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059\",\"target_language\":\"Japanese\"}}"
+    "input": "Translate 'Good morning' into Japanese.",
+    "output": "{\"response\":{\"original\":\"Good morning\",\"translation\":\"\u304a\u306f\u3088\u3046\u3054\u3056\u3044\u307e\u3059\",\"target_language\":\"Japanese\"}}"
   },
   {
-    "output": "Convert 250 grams to ounces.",
-    "input": "{\"response\":{\"input_value\":250,\"input_unit\":\"g\",\"output_value\":8.8185,\"output_unit\":\"oz\",\"precision\":4}}"
+    "input": "Convert 250 grams to ounces.",
+    "output": "{\"response\":{\"input_value\":250,\"input_unit\":\"g\",\"output_value\":8.8185,\"output_unit\":\"oz\",\"precision\":4}}"
   },
   {
-    "output": "What is the current time in Tokyo if it's 2025-08-02T12:00:00Z?",
-    "input": "{\"response\":{\"reference_time\":\"2025-08-02T12:00:00Z\",\"location\":\"Tokyo\",\"local_time\":\"2025-08-02T21:00:00+09:00\",\"timezone\":\"Asia/Tokyo\"}}"
+    "input": "What is the current time in Tokyo if it's 2025-08-02T12:00:00Z?",
+    "output": "{\"response\":{\"reference_time\":\"2025-08-02T12:00:00Z\",\"location\":\"Tokyo\",\"local_time\":\"2025-08-02T21:00:00+09:00\",\"timezone\":\"Asia/Tokyo\"}}"
   },
   {
-    "output": "List the first 5 Fibonacci numbers.",
-    "input": "{\"response\":{\"sequence_name\":\"Fibonacci\",\"sequence\":[0,1,1,2,3],\"count\":5}}"
+    "input": "List the first 5 Fibonacci numbers.",
+    "output": "{\"response\":{\"sequence_name\":\"Fibonacci\",\"sequence\":[0,1,1,2,3],\"count\":5}}"
   },
   {
-    "output": "Is 2025 a prime number?",
-    "input": "{\"response\":{\"number\":2025,\"is_prime\":false}}"
+    "input": "Is 2025 a prime number?",
+    "output": "{\"response\":{\"number\":2025,\"is_prime\":false}}"
   },
   {
-    "output": "Prime factorize 84.",
-    "input": "{\"response\":{\"number\":84,\"prime_factors\":[2,2,3,7]}}"
+    "input": "Prime factorize 84.",
+    "output": "{\"response\":{\"number\":84,\"prime_factors\":[2,2,3,7]}}"
   },
   {
-    "output": "Calculate the monthly payment for a mortgage loan with principal $200000, annual interest rate 3.5%, and term 30 years.",
-    "input": "{\"response\":{\"principal\":200000,\"annual_interest_rate\":3.5,\"term_years\":30,\"monthly_payment\":898.09,\"currency\":\"USD\"}}"
+    "input": "Calculate the monthly payment for a mortgage loan with principal $200000, annual interest rate 3.5%, and term 30 years.",
+    "output": "{\"response\":{\"principal\":200000,\"annual_interest_rate\":3.5,\"term_years\":30,\"monthly_payment\":898.09,\"currency\":\"USD\"}}"
   },
   {
-    "output": "Find the synonyms for 'happy'.",
-    "input": "{\"response\":{\"word\":\"happy\",\"synonyms\":[\"content\",\"joyful\",\"pleased\",\"cheerful\",\"merry\"]}}"
+    "input": "Find the synonyms for 'happy'.",
+    "output": "{\"response\":{\"word\":\"happy\",\"synonyms\":[\"content\",\"joyful\",\"pleased\",\"cheerful\",\"merry\"]}}"
   },
   {
-    "output": "Summarize the following article: 'Machine learning enables computers to learn from data without being explicitly programmed.'",
-    "input": "{\"response\":{\"original_text\":\"Machine learning enables computers to learn from data without being explicitly programmed.\",\"summary\":\"Machine learning allows computers to autonomously learn from data.\"}}"
+    "input": "Summarize the following article: 'Machine learning enables computers to learn from data without being explicitly programmed.'",
+    "output": "{\"response\":{\"original_text\":\"Machine learning enables computers to learn from data without being explicitly programmed.\",\"summary\":\"Machine learning allows computers to autonomously learn from data.\"}}"
   },
   {
-    "output": "What is the capital city of Japan?",
-    "input": "{\"response\":{\"country\":\"Japan\",\"capital\":\"Tokyo\"}}"
+    "input": "What is the capital city of Japan?",
+    "output": "{\"response\":{\"country\":\"Japan\",\"capital\":\"Tokyo\"}}"
   },
   {
-    "output": "Count the number of words in 'Hello world from AI'.",
-    "input": "{\"response\":{\"text\":\"Hello world from AI\",\"word_count\":4}}"
+    "input": "Count the number of words in 'Hello world from AI'.",
+    "output": "{\"response\":{\"text\":\"Hello world from AI\",\"word_count\":4}}"
   },
   {
-    "output": "How many times does 'AI' appear in 'AI is the future. AI will shape the world.'?",
-    "input": "{\"response\":{\"text\":\"AI is the future. AI will shape the world.\",\"search_term\":\"AI\",\"occurrences\":2}}"
+    "input": "How many times does 'AI' appear in 'AI is the future. AI will shape the world.'?",
+    "output": "{\"response\":{\"text\":\"AI is the future. AI will shape the world.\",\"search_term\":\"AI\",\"occurrences\":2}}"
   },
   {
-    "output": "Reverse the string 'abcdef'.",
-    "input": "{\"response\":{\"original\":\"abcdef\",\"reversed\":\"fedcba\"}}"
+    "input": "Reverse the string 'abcdef'.",
+    "output": "{\"response\":{\"original\":\"abcdef\",\"reversed\":\"fedcba\"}}"
   },
   {
-    "output": "Validate the email 'user@example.com'.",
-    "input": "{\"response\":{\"email\":\"user@example.com\",\"is_valid\":true}}"
+    "input": "Validate the email 'user@example.com'.",
+    "output": "{\"response\":{\"email\":\"user@example.com\",\"is_valid\":true}}"
   },
   {
-    "output": "Calculate the BMI for weight 70kg and height 1.75m.",
-    "input": "{\"response\":{\"weight_kg\":70,\"height_m\":1.75,\"bmi\":22.86}}"
+    "input": "Calculate the BMI for weight 70kg and height 1.75m.",
+    "output": "{\"response\":{\"weight_kg\":70,\"height_m\":1.75,\"bmi\":22.86}}"
   },
   {
-    "output": "Generate a random integer between 1 and 100.",
-    "input": "{\"response\":{\"min\":1,\"max\":100,\"random_integer\":42}}"
+    "input": "Generate a random integer between 1 and 100.",
+    "output": "{\"response\":{\"min\":1,\"max\":100,\"random_integer\":42}}"
   },
   {
-    "output": "How many days are between 2025-01-01 and 2025-12-31?",
-    "input": "{\"response\":{\"start_date\":\"2025-01-01\",\"end_date\":\"2025-12-31\",\"days_difference\":364}}"
+    "input": "How many days are between 2025-01-01 and 2025-12-31?",
+    "output": "{\"response\":{\"start_date\":\"2025-01-01\",\"end_date\":\"2025-12-31\",\"days_difference\":364}}"
   },
   {
-    "output": "Convert 100 USD to EUR at exchange rate 0.85.",
-    "input": "{\"response\":{\"amount\":100,\"from_currency\":\"USD\",\"to_currency\":\"EUR\",\"exchange_rate\":0.85,\"converted_amount\":85}}"
+    "input": "Convert 100 USD to EUR at exchange rate 0.85.",
+    "output": "{\"response\":{\"amount\":100,\"from_currency\":\"USD\",\"to_currency\":\"EUR\",\"exchange_rate\":0.85,\"converted_amount\":85}}"
   },
   {
-    "output": "List prime numbers up to 20.",
-    "input": "{\"response\":{\"sequence\":\"primes\",\"up_to\":20,\"primes\":[2,3,5,7,11,13,17,19]}}"
+    "input": "List prime numbers up to 20.",
+    "output": "{\"response\":{\"sequence\":\"primes\",\"up_to\":20,\"primes\":[2,3,5,7,11,13,17,19]}}"
   },
   {
-    "output": "Generate a UUID.",
-    "input": "{\"response\":{\"uuid\":\"123e4567-e89b-12d3-a456-426614174000\"}}"
+    "input": "Generate a UUID.",
+    "output": "{\"response\":{\"uuid\":\"123e4567-e89b-12d3-a456-426614174000\"}}"
   },
   {
-    "output": "Sort the list [5,3,9,1,4].",
-    "input": "{\"response\":{\"original\":[5,3,9,1,4],\"sorted\":[1,3,4,5,9]}}"
+    "input": "Sort the list [5,3,9,1,4].",
+    "output": "{\"response\":{\"original\":[5,3,9,1,4],\"sorted\":[1,3,4,5,9]}}"
   },
   {
-    "output": "Merge {\"a\":1,\"b\":2} and {\"b\":3,\"c\":4}.",
-    "input": "{\"response\":{\"object1\":{\"a\":1,\"b\":2},\"object2\":{\"b\":3,\"c\":4},\"merged\":{\"a\":1,\"b\":3,\"c\":4}}}"
+    "input": "Merge {\"a\":1,\"b\":2} and {\"b\":3,\"c\":4}.",
+    "output": "{\"response\":{\"object1\":{\"a\":1,\"b\":2},\"object2\":{\"b\":3,\"c\":4},\"merged\":{\"a\":1,\"b\":3,\"c\":4}}}"
   },
   {
-    "output": "Calculate the area of a circle with radius 5.",
-    "input": "{\"response\":{\"radius\":5,\"area\":78.54,\"units\":\"unit^2\"}}"
+    "input": "Calculate the area of a circle with radius 5.",
+    "output": "{\"response\":{\"radius\":5,\"area\":78.54,\"units\":\"unit^2\"}}"
   },
   {
-    "output": "Normalize the list [50,75,100] to range 0-1.",
-    "input": "{\"response\":{\"original\":[50,75,100],\"normalized\":[0,0.5,1]}}"
+    "input": "Normalize the list [50,75,100] to range 0-1.",
+    "output": "{\"response\":{\"original\":[50,75,100],\"normalized\":[0,0.5,1]}}"
   },
   {
-    "output": "Find the square root of 256.",
-    "input": "{\"response\":{\"value\":256,\"square_root\":16}}"
+    "input": "Find the square root of 256.",
+    "output": "{\"response\":{\"value\":256,\"square_root\":16}}"
   },
   {
-    "output": "Check if 'racecar' is a palindrome.",
-    "input": "{\"response\":{\"text\":\"racecar\",\"is_palindrome\":true}}"
+    "input": "Check if 'racecar' is a palindrome.",
+    "output": "{\"response\":{\"text\":\"racecar\",\"is_palindrome\":true}}"
   },
   {
-    "output": "Calculate the factorial of 6.",
-    "input": "{\"response\":{\"number\":6,\"factorial\":720}}"
+    "input": "Calculate the factorial of 6.",
+    "output": "{\"response\":{\"number\":6,\"factorial\":720}}"
   },
   {
-    "output": "Determine the age group for age 25.",
-    "input": "{\"response\":{\"age\":25,\"age_group\":\"adult\"}}"
+    "input": "Determine the age group for age 25.",
+    "output": "{\"response\":{\"age\":25,\"age_group\":\"adult\"}}"
   },
   {
-    "output": "What is the ISO week number for 2025-08-02?",
-    "input": "{\"response\":{\"date\":\"2025-08-02\",\"week_year\":2025,\"iso_week\":31}}"
+    "input": "What is the ISO week number for 2025-08-02?",
+    "output": "{\"response\":{\"date\":\"2025-08-02\",\"week_year\":2025,\"iso_week\":31}}"
   },
   {
-    "output": "Write a Python function that recursively merges two nested dictionaries, giving precedence to the second. Include type hints and docstrings.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"from typing import Any, Dict\\n\\ndef merge_dicts(d1: Dict[Any, Any], d2: Dict[Any, Any]) -> Dict[Any, Any]:\\n    \\\"\\\"\\\"\\n    Recursively merge two dictionaries. Values in d2 take precedence.\\n    \\\"\\\"\\\"\\n    result = d1.copy()\\n    for key, value in d2.items():\\n        if key in result and isinstance(result[key], dict) and isinstance(value, dict):\\n            result[key] = merge_dicts(result[key], value)\\n        else:\\n            result[key] = value\\n    return result\\n\"}}"
+    "input": "Write a Python function that recursively merges two nested dictionaries, giving precedence to the second. Include type hints and docstrings.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"from typing import Any, Dict\\n\\ndef merge_dicts(d1: Dict[Any, Any], d2: Dict[Any, Any]) -> Dict[Any, Any]:\\n    \\\"\\\"\\\"\\n    Recursively merge two dictionaries. Values in d2 take precedence.\\n    \\\"\\\"\\\"\\n    result = d1.copy()\\n    for key, value in d2.items():\\n        if key in result and isinstance(result[key], dict) and isinstance(value, dict):\\n            result[key] = merge_dicts(result[key], value)\\n        else:\\n            result[key] = value\\n    return result\\n\"}}"
   },
   {
-    "output": "Provide a SQL query to find the second highest salary from a table employees(salary).",
-    "input": "{\"response\":{\"query\":\"SELECT MAX(salary) AS second_highest_salary\\nFROM employees\\nWHERE salary < (SELECT MAX(salary) FROM employees);\"}}"
+    "input": "Provide a SQL query to find the second highest salary from a table employees(salary).",
+    "output": "{\"response\":{\"query\":\"SELECT MAX(salary) AS second_highest_salary\\nFROM employees\\nWHERE salary < (SELECT MAX(salary) FROM employees);\"}}"
   },
   {
-    "output": "Solve the system of equations: 2x + 3y = 6, 5x - y = 14. Provide detailed steps and the exact solution.",
-    "input": "{\"response\":{\"equations\":[\"2x + 3y = 6\",\"5x - y = 14\"],\"steps\":[\"Solve first for y: y = (6 - 2x)/3\",\"Substitute into second: 5x - (6 - 2x)/3 = 14\",\"Multiply both sides by 3: 15x - (6 - 2x) = 42\",\"Simplify: 15x - 6 + 2x = 42 \u2192 17x = 48 \u2192 x = 48/17\",\"Compute y: y = (6 - 2*(48/17))/3 = (102/17 - 96/17)/3 = (6/17)/3 = 2/17\"],\"solution\":{\"x\":\"48/17\",\"y\":\"2/17\"}}"
+    "input": "Solve the system of equations: 2x + 3y = 6, 5x - y = 14. Provide detailed steps and the exact solution.",
+    "output": "{\"response\":{\"equations\":[\"2x + 3y = 6\",\"5x - y = 14\"],\"steps\":[\"Solve first for y: y = (6 - 2x)/3\",\"Substitute into second: 5x - (6 - 2x)/3 = 14\",\"Multiply both sides by 3: 15x - (6 - 2x) = 42\",\"Simplify: 15x - 6 + 2x = 42 \u2192 17x = 48 \u2192 x = 48/17\",\"Compute y: y = (6 - 2*(48/17))/3 = (102/17 - 96/17)/3 = (6/17)/3 = 2/17\"],\"solution\":{\"x\":\"48/17\",\"y\":\"2/17\"}}"
   },
   {
-    "output": "Find the derivative of f(x) = x^3 + 2x^2 - x + 5.",
-    "input": "{\"response\":{\"function\":\"x^3 + 2x^2 - x + 5\",\"derivative\":\"3x^2 + 4x - 1\"}}"
+    "input": "Find the derivative of f(x) = x^3 + 2x^2 - x + 5.",
+    "output": "{\"response\":{\"function\":\"x^3 + 2x^2 - x + 5\",\"derivative\":\"3x^2 + 4x - 1\"}}"
   },
   {
-    "output": "Generate an HTML file with a responsive navbar using embedded CSS.",
-    "input": "{\"response\":{\"language\":\"html\",\"code\":\"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <title>Responsive Navbar</title>\\n  <style>\\n    body { margin: 0; }\\n    .navbar { display: flex; background-color: #333; padding: 0.5em; }\\n    .navbar a { color: white; padding: 0.5em 1em; text-decoration: none; }\\n    .navbar a:hover { background-color: #575757; }\\n    @media (max-width: 600px) {\\n      .navbar { flex-direction: column; }\\n    }\\n  </style>\\n</head>\\n<body>\\n  <nav class=\\\"navbar\\\">\\n    <a href=\\\"#home\\\">Home</a>\\n    <a href=\\\"#about\\\">About</a>\\n    <a href=\\\"#contact\\\">Contact</a>\\n  </nav>\\n</body>\\n</html>\"}}"
+    "input": "Generate an HTML file with a responsive navbar using embedded CSS.",
+    "output": "{\"response\":{\"language\":\"html\",\"code\":\"<!DOCTYPE html>\\n<html lang=\\\"en\\\">\\n<head>\\n  <meta charset=\\\"UTF-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\n  <title>Responsive Navbar</title>\\n  <style>\\n    body { margin: 0; }\\n    .navbar { display: flex; background-color: #333; padding: 0.5em; }\\n    .navbar a { color: white; padding: 0.5em 1em; text-decoration: none; }\\n    .navbar a:hover { background-color: #575757; }\\n    @media (max-width: 600px) {\\n      .navbar { flex-direction: column; }\\n    }\\n  </style>\\n</head>\\n<body>\\n  <nav class=\\\"navbar\\\">\\n    <a href=\\\"#home\\\">Home</a>\\n    <a href=\\\"#about\\\">About</a>\\n    <a href=\\\"#contact\\\">Contact</a>\\n  </nav>\\n</body>\\n</html>\"}}"
   },
   {
-    "output": "Write a Node.js Express endpoint to handle GET /users and return a JSON list of users from an in-memory array.",
-    "input": "{\"response\":{\"language\":\"javascript\",\"code\":\"const express = require('express');\\nconst app = express();\\n\\nconst users = [\\n  { id: 1, name: 'Alice' },\\n  { id: 2, name: 'Bob' }\\n];\\n\\napp.get('/users', (req, res) => {\\n  res.json(users);\\n});\\n\\napp.listen(3000, () => console.log('Server running on port 3000'));\"}}"
+    "input": "Write a Node.js Express endpoint to handle GET /users and return a JSON list of users from an in-memory array.",
+    "output": "{\"response\":{\"language\":\"javascript\",\"code\":\"const express = require('express');\\nconst app = express();\\n\\nconst users = [\\n  { id: 1, name: 'Alice' },\\n  { id: 2, name: 'Bob' }\\n];\\n\\napp.get('/users', (req, res) => {\\n  res.json(users);\\n});\\n\\napp.listen(3000, () => console.log('Server running on port 3000'));\"}}"
   },
   {
-    "output": "Provide a regular expression to validate IPv4 addresses.",
-    "input": "{\"response\":{\"regex\":\"\\\\b((25[0-5]|2[0-4]\\\\d|[01]?\\\\d?\\\\d)\\\\.){3}(25[0-5]|2[0-4]\\\\d|[01]?\\\\d?\\\\d)\\\\b\"}}"
+    "input": "Provide a regular expression to validate IPv4 addresses.",
+    "output": "{\"response\":{\"regex\":\"\\\\b((25[0-5]|2[0-4]\\\\d|[01]?\\\\d?\\\\d)\\\\.){3}(25[0-5]|2[0-4]\\\\d|[01]?\\\\d?\\\\d)\\\\b\"}}"
   },
   {
-    "output": "Write a Python pandas snippet that reads 'data.csv', groups by 'category', and computes the mean of 'value'.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\n\\ndf = pd.read_csv('data.csv')\\nresult = df.groupby('category')['value'].mean().reset_index()\\nprint(result)\"}}"
+    "input": "Write a Python pandas snippet that reads 'data.csv', groups by 'category', and computes the mean of 'value'.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\n\\ndf = pd.read_csv('data.csv')\\nresult = df.groupby('category')['value'].mean().reset_index()\\nprint(result)\"}}"
   },
   {
-    "output": "Create a bash script to backup /var/www to /backup/www with rsync and log the output to backup.log.",
-    "input": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/bin/bash\\n\\nSOURCE=\\\"/var/www/\\\"\\nDEST=\\\"/backup/www/\\\"\\nLOGFILE=\\\"backup.log\\\"\\n\\nrsync -av --delete \\\"$SOURCE\\\" \\\"$DEST\\\" | tee -a \\\"$LOGFILE\\\"\\n\"}}"
+    "input": "Create a bash script to backup /var/www to /backup/www with rsync and log the output to backup.log.",
+    "output": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/bin/bash\\n\\nSOURCE=\\\"/var/www/\\\"\\nDEST=\\\"/backup/www/\\\"\\nLOGFILE=\\\"backup.log\\\"\\n\\nrsync -av --delete \\\"$SOURCE\\\" \\\"$DEST\\\" | tee -a \\\"$LOGFILE\\\"\\n\"}}"
   },
   {
-    "output": "Compute the integral \u222b x e^x dx and provide detailed steps.",
-    "input": "{\"response\":{\"integral\":\"\u222b x e^x dx\",\"steps\":[\"Let u = x, dv = e^x dx\",\"Then du = dx, v = e^x\",\"\u222b x e^x dx = u*v - \u222b v du = x e^x - \u222b e^x dx\",\"= x e^x - e^x + C\"],\"result\":\"e^x (x - 1) + C\"}}"
+    "input": "Compute the integral \u222b x e^x dx and provide detailed steps.",
+    "output": "{\"response\":{\"integral\":\"\u222b x e^x dx\",\"steps\":[\"Let u = x, dv = e^x dx\",\"Then du = dx, v = e^x\",\"\u222b x e^x dx = u*v - \u222b v du = x e^x - \u222b e^x dx\",\"= x e^x - e^x + C\"],\"result\":\"e^x (x - 1) + C\"}}"
   },
   {
-    "output": "Create a Python matplotlib script to plot y = sin(x) for x in [0, 2\u03c0] with labels, title, grid, and legend.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\nimport matplotlib.pyplot as plt\\n\\nx = np.linspace(0, 2*np.pi, 100)\\ny = np.sin(x)\\n\\nplt.plot(x, y, label='sin(x)')\\nplt.xlabel('x')\\nplt.ylabel('sin(x)')\\nplt.title('Plot of sin(x)')\\nplt.grid(True)\\nplt.legend()\\nplt.show()\"}}"
+    "input": "Create a Python matplotlib script to plot y = sin(x) for x in [0, 2\u03c0] with labels, title, grid, and legend.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\nimport matplotlib.pyplot as plt\\n\\nx = np.linspace(0, 2*np.pi, 100)\\ny = np.sin(x)\\n\\nplt.plot(x, y, label='sin(x)')\\nplt.xlabel('x')\\nplt.ylabel('sin(x)')\\nplt.title('Plot of sin(x)')\\nplt.grid(True)\\nplt.legend()\\nplt.show()\"}}"
   },
   {
-    "output": "Provide a Terraform configuration to create an AWS S3 bucket named 'my-bucket' with versioning enabled.",
-    "input": "{\"response\":{\"language\":\"terraform\",\"code\":\"provider \\\"aws\\\" {\\n  region = \\\"us-east-1\\\"\\n}\\n\\nresource \\\"aws_s3_bucket\\\" \\\"my_bucket\\\" {\\n  bucket = \\\"my-bucket\\\"\\n\\n  versioning {\\n    enabled = true\\n  }\\n}\"}}"
+    "input": "Provide a Terraform configuration to create an AWS S3 bucket named 'my-bucket' with versioning enabled.",
+    "output": "{\"response\":{\"language\":\"terraform\",\"code\":\"provider \\\"aws\\\" {\\n  region = \\\"us-east-1\\\"\\n}\\n\\nresource \\\"aws_s3_bucket\\\" \\\"my_bucket\\\" {\\n  bucket = \\\"my-bucket\\\"\\n\\n  versioning {\\n    enabled = true\\n  }\\n}\"}}"
   },
   {
-    "output": "Implement a binary search function in JavaScript that returns the index of a target in a sorted array or -1 if not found.",
-    "input": "{\"response\":{\"language\":\"javascript\",\"code\":\"function binarySearch(arr, target) {\\n    let left = 0;\\n    let right = arr.length - 1;\\n    while (left <= right) {\\n        const mid = Math.floor((left + right) / 2);\\n        if (arr[mid] === target) return mid;\\n        if (arr[mid] < target) left = mid + 1;\\n        else right = mid - 1;\\n    }\\n    return -1;\\n}\"}}"
+    "input": "Implement a binary search function in JavaScript that returns the index of a target in a sorted array or -1 if not found.",
+    "output": "{\"response\":{\"language\":\"javascript\",\"code\":\"function binarySearch(arr, target) {\\n    let left = 0;\\n    let right = arr.length - 1;\\n    while (left <= right) {\\n        const mid = Math.floor((left + right) / 2);\\n        if (arr[mid] === target) return mid;\\n        if (arr[mid] < target) left = mid + 1;\\n        else right = mid - 1;\\n    }\\n    return -1;\\n}\"}}"
   },
   {
-    "output": "Write a Python decorator called `memoize` that caches function results based on arguments.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"from functools import wraps\\n\\ndef memoize(func):\\n    cache = {}\\n    @wraps(func)\\n    def wrapper(*args):\\n        if args in cache:\\n            return cache[args]\\n        result = func(*args)\\n        cache[args] = result\\n        return result\\n    return wrapper\\n\"}}"
+    "input": "Write a Python decorator called `memoize` that caches function results based on arguments.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"from functools import wraps\\n\\ndef memoize(func):\\n    cache = {}\\n    @wraps(func)\\n    def wrapper(*args):\\n        if args in cache:\\n            return cache[args]\\n        result = func(*args)\\n        cache[args] = result\\n        return result\\n    return wrapper\\n\"}}"
   },
   {
-    "output": "Create a C++ class `Matrix` that supports addition, subtraction, and multiplication via operator overloading.",
-    "input": "{\"response\":{\"language\":\"cpp\",\"code\":\"#include <vector>\\n#include <stdexcept>\\n\\nclass Matrix {\\npublic:\\n    Matrix(int r, int c) : rows(r), cols(c), data(r, std::vector<double>(c)) {}\\n    double& operator()(int i, int j) { return data[i][j]; }\\n    Matrix operator+(const Matrix& o) const {\\n        check_dims(o);\\n        Matrix r(rows, cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < cols; ++j)\\n                r.data[i][j] = data[i][j] + o.data[i][j];\\n        return r;\\n    }\\n    Matrix operator-(const Matrix& o) const {\\n        check_dims(o);\\n        Matrix r(rows, cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < cols; ++j)\\n                r.data[i][j] = data[i][j] - o.data[i][j];\\n        return r;\\n    }\\n    Matrix operator*(const Matrix& o) const {\\n        if (cols != o.rows) throw std::invalid_argument(\\\"Dimension mismatch\\\");\\n        Matrix r(rows, o.cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < o.cols; ++j)\\n                for (int k = 0; k < cols; ++k)\\n                    r.data[i][j] += data[i][k] * o.data[k][j];\\n        return r;\\n    }\\nprivate:\\n    int rows, cols;\\n    std::vector<std::vector<double>> data;\\n    void check_dims(const Matrix& o) const {\\n        if (rows != o.rows || cols != o.cols)\\n            throw std::invalid_argument(\\\"Dimension mismatch\\\");\\n    }\\n};\"}}"
+    "input": "Create a C++ class `Matrix` that supports addition, subtraction, and multiplication via operator overloading.",
+    "output": "{\"response\":{\"language\":\"cpp\",\"code\":\"#include <vector>\\n#include <stdexcept>\\n\\nclass Matrix {\\npublic:\\n    Matrix(int r, int c) : rows(r), cols(c), data(r, std::vector<double>(c)) {}\\n    double& operator()(int i, int j) { return data[i][j]; }\\n    Matrix operator+(const Matrix& o) const {\\n        check_dims(o);\\n        Matrix r(rows, cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < cols; ++j)\\n                r.data[i][j] = data[i][j] + o.data[i][j];\\n        return r;\\n    }\\n    Matrix operator-(const Matrix& o) const {\\n        check_dims(o);\\n        Matrix r(rows, cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < cols; ++j)\\n                r.data[i][j] = data[i][j] - o.data[i][j];\\n        return r;\\n    }\\n    Matrix operator*(const Matrix& o) const {\\n        if (cols != o.rows) throw std::invalid_argument(\\\"Dimension mismatch\\\");\\n        Matrix r(rows, o.cols);\\n        for (int i = 0; i < rows; ++i)\\n            for (int j = 0; j < o.cols; ++j)\\n                for (int k = 0; k < cols; ++k)\\n                    r.data[i][j] += data[i][k] * o.data[k][j];\\n        return r;\\n    }\\nprivate:\\n    int rows, cols;\\n    std::vector<std::vector<double>> data;\\n    void check_dims(const Matrix& o) const {\\n        if (rows != o.rows || cols != o.cols)\\n            throw std::invalid_argument(\\\"Dimension mismatch\\\");\\n    }\\n};\"}}"
   },
   {
-    "output": "Build a React functional component `TodoList` with `useState` to add and remove items.",
-    "input": "{\"response\":{\"language\":\"javascript\",\"code\":\"import React, { useState } from 'react';\\n\\nfunction TodoList() {\\n  const [tasks, setTasks] = useState([]);\\n  const [input, setInput] = useState('');\\n\\n  const addTask = () => {\\n    if (!input) return;\\n    setTasks([...tasks, input]);\\n    setInput('');\\n  };\\n\\n  const removeTask = index => {\\n    setTasks(tasks.filter((_, i) => i !== index));\\n  };\\n\\n  return (\\n    <div>\\n      <h2>Todo List</h2>\\n      <input\\n        value={input}\\n        onChange={e => setInput(e.target.value)}\\n        placeholder=\\\"New task\\\"\\n      />\\n      <button onClick={addTask}>Add</button>\\n      <ul>\\n        {tasks.map((task, i) => (\\n          <li key={i}>\\n            {task} <button onClick={() => removeTask(i)}>\u00d7</button>\\n          </li>\\n        ))}\\n      </ul>\\n    </div>\\n  );\\n}\\n\\nexport default TodoList;\"}}"
+    "input": "Build a React functional component `TodoList` with `useState` to add and remove items.",
+    "output": "{\"response\":{\"language\":\"javascript\",\"code\":\"import React, { useState } from 'react';\\n\\nfunction TodoList() {\\n  const [tasks, setTasks] = useState([]);\\n  const [input, setInput] = useState('');\\n\\n  const addTask = () => {\\n    if (!input) return;\\n    setTasks([...tasks, input]);\\n    setInput('');\\n  };\\n\\n  const removeTask = index => {\\n    setTasks(tasks.filter((_, i) => i !== index));\\n  };\\n\\n  return (\\n    <div>\\n      <h2>Todo List</h2>\\n      <input\\n        value={input}\\n        onChange={e => setInput(e.target.value)}\\n        placeholder=\\\"New task\\\"\\n      />\\n      <button onClick={addTask}>Add</button>\\n      <ul>\\n        {tasks.map((task, i) => (\\n          <li key={i}>\\n            {task} <button onClick={() => removeTask(i)}>\u00d7</button>\\n          </li>\\n        ))}\\n      </ul>\\n    </div>\\n  );\\n}\\n\\nexport default TodoList;\"}}"
   },
   {
-    "output": "Write a SQL query using a window function to compute the running total of `sales` ordered by `sale_date`.",
-    "input": "{\"response\":{\"query\":\"SELECT sale_date,\\n       sales,\\n       SUM(sales) OVER (ORDER BY sale_date) AS running_total\\nFROM daily_sales\\nORDER BY sale_date;\"}}"
+    "input": "Write a SQL query using a window function to compute the running total of `sales` ordered by `sale_date`.",
+    "output": "{\"response\":{\"query\":\"SELECT sale_date,\\n       sales,\\n       SUM(sales) OVER (ORDER BY sale_date) AS running_total\\nFROM daily_sales\\nORDER BY sale_date;\"}}"
   },
   {
-    "output": "Solve the ODE y'' - 3y' + 2y = e^{2x} with initial conditions y(0)=0, y'(0)=1. Provide steps and solution.",
-    "input": "{\"response\":{\"equation\":\"y'' - 3y' + 2y = e^{2x}\",\"steps\":[  \"Solve homogeneous: r^2 - 3r + 2=0 \u2192 r=1,2 \u2192 y_h = C1 e^x + C2 e^{2x}\",  \"Particular: assume y_p = A x e^{2x}\",  \"Compute y_p' and y_p'' and substitute\",  \"Find A = 1/ ( (2-1)*(2-2) ) \u2192 adjust ansatz to y_p = (A x + B) e^{2x}\",  \"Solve for A,B \u2192 A=1, B=-1/1\",  \"y_p = (x - 1) e^{2x}\",  \"General y = C1 e^x + C2 e^{2x} + (x - 1) e^{2x}\",  \"Apply y(0)=0 \u2192 C1 + C2 - 1=0\",  \"y'(x)= C1 e^x + 2C2 e^{2x} + (2x -1)e^{2x}\",  \"y'(0)= C1 + 2C2 -1=1\",  \"Solve C1+C2=1, C1+2C2=2 \u2192 C2=1, C1=0\"  ],\"solution\":\"y = e^{2x}(x - 1 + 1) = x e^{2x}\"}}"
+    "input": "Solve the ODE y'' - 3y' + 2y = e^{2x} with initial conditions y(0)=0, y'(0)=1. Provide steps and solution.",
+    "output": "{\"response\":{\"equation\":\"y'' - 3y' + 2y = e^{2x}\",\"steps\":[  \"Solve homogeneous: r^2 - 3r + 2=0 \u2192 r=1,2 \u2192 y_h = C1 e^x + C2 e^{2x}\",  \"Particular: assume y_p = A x e^{2x}\",  \"Compute y_p' and y_p'' and substitute\",  \"Find A = 1/ ( (2-1)*(2-2) ) \u2192 adjust ansatz to y_p = (A x + B) e^{2x}\",  \"Solve for A,B \u2192 A=1, B=-1/1\",  \"y_p = (x - 1) e^{2x}\",  \"General y = C1 e^x + C2 e^{2x} + (x - 1) e^{2x}\",  \"Apply y(0)=0 \u2192 C1 + C2 - 1=0\",  \"y'(x)= C1 e^x + 2C2 e^{2x} + (2x -1)e^{2x}\",  \"y'(0)= C1 + 2C2 -1=1\",  \"Solve C1+C2=1, C1+2C2=2 \u2192 C2=1, C1=0\"  ],\"solution\":\"y = e^{2x}(x - 1 + 1) = x e^{2x}\"}}"
   },
   {
-    "output": "Provide a Dockerfile to containerize a Node.js Express app that serves static files from `public/`.",
-    "input": "{\"response\":{\"language\":\"dockerfile\",\"code\":\"FROM node:18-alpine\\nWORKDIR /app\\nCOPY package*.json ./\\nRUN npm install --production\\nCOPY . .\\nEXPOSE 3000\\nCMD [\\\"node\\\", \\\"server.js\\\"]\\n\\n# server.js should use express.static('public') for serving files\"}}"
+    "input": "Provide a Dockerfile to containerize a Node.js Express app that serves static files from `public/`.",
+    "output": "{\"response\":{\"language\":\"dockerfile\",\"code\":\"FROM node:18-alpine\\nWORKDIR /app\\nCOPY package*.json ./\\nRUN npm install --production\\nCOPY . .\\nEXPOSE 3000\\nCMD [\\\"node\\\", \\\"server.js\\\"]\\n\\n# server.js should use express.static('public') for serving files\"}}"
   },
   {
-    "output": "Generate a Kubernetes Deployment and Service YAML to deploy a Spring Boot app image `myapp:latest` on port 8080.",
-    "input": "{\"response\":{\"language\":\"yaml\",\"code\":\"apiVersion: apps/v1\\nkind: Deployment\\nmetadata:\\n  name: springboot-deployment\\nspec:\\n  replicas: 3\\n  selector:\\n    matchLabels:\\n      app: springboot\\n  template:\\n    metadata:\\n      labels:\\n        app: springboot\\n    spec:\\n      containers:\\n      - name: springboot\\n        image: myapp:latest\\n        ports:\\n        - containerPort: 8080\\n---\\napiVersion: v1\\nkind: Service\\nmetadata:\\n  name: springboot-service\\nspec:\\n  selector:\\n    app: springboot\\n  ports:\\n  - protocol: TCP\\n    port: 80\\n    targetPort: 8080\\n  type: LoadBalancer\"}}"
+    "input": "Generate a Kubernetes Deployment and Service YAML to deploy a Spring Boot app image `myapp:latest` on port 8080.",
+    "output": "{\"response\":{\"language\":\"yaml\",\"code\":\"apiVersion: apps/v1\\nkind: Deployment\\nmetadata:\\n  name: springboot-deployment\\nspec:\\n  replicas: 3\\n  selector:\\n    matchLabels:\\n      app: springboot\\n  template:\\n    metadata:\\n      labels:\\n        app: springboot\\n    spec:\\n      containers:\\n      - name: springboot\\n        image: myapp:latest\\n        ports:\\n        - containerPort: 8080\\n---\\napiVersion: v1\\nkind: Service\\nmetadata:\\n  name: springboot-service\\nspec:\\n  selector:\\n    app: springboot\\n  ports:\\n  - protocol: TCP\\n    port: 80\\n    targetPort: 8080\\n  type: LoadBalancer\"}}"
   },
   {
-    "output": "Write a Terraform config to provision an AWS EC2 instance with AMI `ami-123456` and t2.micro instance type.",
-    "input": "{\"response\":{\"language\":\"terraform\",\"code\":\"provider \\\"aws\\\" {\\n  region = \\\"us-east-1\\\"\\n}\\n\\nresource \\\"aws_instance\\\" \\\"web\\\" {\\n  ami           = \\\"ami-123456\\\"\\n  instance_type = \\\"t2.micro\\\"\\n  tags = {\\n    Name = \\\"MyWebServer\\\"\\n  }\\n}\"}}"
+    "input": "Write a Terraform config to provision an AWS EC2 instance with AMI `ami-123456` and t2.micro instance type.",
+    "output": "{\"response\":{\"language\":\"terraform\",\"code\":\"provider \\\"aws\\\" {\\n  region = \\\"us-east-1\\\"\\n}\\n\\nresource \\\"aws_instance\\\" \\\"web\\\" {\\n  ami           = \\\"ami-123456\\\"\\n  instance_type = \\\"t2.micro\\\"\\n  tags = {\\n    Name = \\\"MyWebServer\\\"\\n  }\\n}\"}}"
   },
   {
-    "output": "Create a Solidity ERC-20 token contract named `MyToken` with symbol `MTK` and mint function restricted to owner.",
-    "input": "{\"response\":{\"language\":\"solidity\",\"code\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"@openzeppelin/contracts/token/ERC20/ERC20.sol\\\";\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\n\\ncontract MyToken is ERC20, Ownable {\\n    constructor() ERC20(\\\"MyToken\\\", \\\"MTK\\\") {}\\n\\n    function mint(address to, uint256 amount) external onlyOwner {\\n        _mint(to, amount);\\n    }\\n}\"}}"
+    "input": "Create a Solidity ERC-20 token contract named `MyToken` with symbol `MTK` and mint function restricted to owner.",
+    "output": "{\"response\":{\"language\":\"solidity\",\"code\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\nimport \\\"@openzeppelin/contracts/token/ERC20/ERC20.sol\\\";\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\n\\ncontract MyToken is ERC20, Ownable {\\n    constructor() ERC20(\\\"MyToken\\\", \\\"MTK\\\") {}\\n\\n    function mint(address to, uint256 amount) external onlyOwner {\\n        _mint(to, amount);\\n    }\\n}\"}}"
   },
   {
-    "output": "Write a Python snippet using scikit-learn to train and evaluate a RandomForestClassifier on features `X` and labels `y`.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"from sklearn.ensemble import RandomForestClassifier\\nfrom sklearn.model_selection import train_test_split\\nfrom sklearn.metrics import accuracy_score\\n\\nX_train, X_test, y_train, y_test = train_test_split(\\n    X, y, test_size=0.2, random_state=42)\\nclf = RandomForestClassifier(n_estimators=100, random_state=42)\\nclf.fit(X_train, y_train)\\npred = clf.predict(X_test)\\nprint(f\\\"Accuracy: {accuracy_score(y_test, pred):.2f}\\\")\"}}"
+    "input": "Write a Python snippet using scikit-learn to train and evaluate a RandomForestClassifier on features `X` and labels `y`.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"from sklearn.ensemble import RandomForestClassifier\\nfrom sklearn.model_selection import train_test_split\\nfrom sklearn.metrics import accuracy_score\\n\\nX_train, X_test, y_train, y_test = train_test_split(\\n    X, y, test_size=0.2, random_state=42)\\nclf = RandomForestClassifier(n_estimators=100, random_state=42)\\nclf.fit(X_train, y_train)\\npred = clf.predict(X_test)\\nprint(f\\\"Accuracy: {accuracy_score(y_test, pred):.2f}\\\")\"}}"
   },
   {
-    "output": "Implement the Bellman-Ford algorithm in Python to detect negative cycles and return shortest paths from a source vertex.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"def bellman_ford(edges, V, src):\\n    dist = [float('inf')] * V\\n    dist[src] = 0\\n    for _ in range(V-1):\\n        for u, v, w in edges:\\n            if dist[u] + w < dist[v]:\\n                dist[v] = dist[u] + w\\n    # check negative cycle\\n    for u, v, w in edges:\\n        if dist[u] + w < dist[v]:\\n            return None  # negative cycle detected\\n    return dist\\n\"}}"
+    "input": "Implement the Bellman-Ford algorithm in Python to detect negative cycles and return shortest paths from a source vertex.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"def bellman_ford(edges, V, src):\\n    dist = [float('inf')] * V\\n    dist[src] = 0\\n    for _ in range(V-1):\\n        for u, v, w in edges:\\n            if dist[u] + w < dist[v]:\\n                dist[v] = dist[u] + w\\n    # check negative cycle\\n    for u, v, w in edges:\\n        if dist[u] + w < dist[v]:\\n            return None  # negative cycle detected\\n    return dist\\n\"}}"
   },
   {
-    "output": "Compute the eigenvalues and eigenvectors of matrix `[[2,0,1],[0,3,0],[1,0,2]]` using NumPy.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\n\\nA = np.array([[2, 0, 1], [0, 3, 0], [1, 0, 2]])\\nvals, vecs = np.linalg.eig(A)\\nprint(\\\"Eigenvalues:\\\", vals)\\nprint(\\\"Eigenvectors:\\\\n\\\", vecs)\"}}"
+    "input": "Compute the eigenvalues and eigenvectors of matrix `[[2,0,1],[0,3,0],[1,0,2]]` using NumPy.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\n\\nA = np.array([[2, 0, 1], [0, 3, 0], [1, 0, 2]])\\nvals, vecs = np.linalg.eig(A)\\nprint(\\\"Eigenvalues:\\\", vals)\\nprint(\\\"Eigenvectors:\\\\n\\\", vecs)\"}}"
   },
   {
-    "output": "Write a GitHub Actions workflow YAML that runs Python tests on push to `main`.",
-    "input": "{\"response\":{\"language\":\"yaml\",\"code\":\"name: CI\\n\\non:\\n  push:\\n    branches: [ main ]\\n\\njobs:\\n  build:\\n    runs-on: ubuntu-latest\\n\\n    steps:\\n    - uses: actions/checkout@v2\\n    - name: Set up Python\\n      uses: actions/setup-python@v2\\n      with:\\n        python-version: '3.x'\\n    - name: Install dependencies\\n      run: pip install -r requirements.txt\\n    - name: Run tests\\n      run: pytest\\n\"}}"
+    "input": "Write a GitHub Actions workflow YAML that runs Python tests on push to `main`.",
+    "output": "{\"response\":{\"language\":\"yaml\",\"code\":\"name: CI\\n\\non:\\n  push:\\n    branches: [ main ]\\n\\njobs:\\n  build:\\n    runs-on: ubuntu-latest\\n\\n    steps:\\n    - uses: actions/checkout@v2\\n    - name: Set up Python\\n      uses: actions/setup-python@v2\\n      with:\\n        python-version: '3.x'\\n    - name: Install dependencies\\n      run: pip install -r requirements.txt\\n    - name: Run tests\\n      run: pytest\\n\"}}"
   },
   {
-    "output": "Fetch the top 5 trending repositories on GitHub for language Python.",
-    "input": "{\"response\":{\"language\":\"Python\",\"framework\":\"GitHub REST API\",\"endpoint\":\"/search/repositories\",\"params\":{\"q\":\"language:Python\",\"sort\":\"stars\",\"order\":\"desc\",\"per_page\":5},\"example_result\":[{\"name\":\"awesome-python\",\"owner\":\"vinta\",\"stars\":123456},{\"name\":\"httpx\",\"owner\":\"encode\",\"stars\":54321},{\"name\":\"fastapi\",\"owner\":\"tiangolo\",\"stars\":50000},{\"name\":\"scrapy\",\"owner\":\"scrapy\",\"stars\":45000},{\"name\":\"django\",\"owner\":\"django\",\"stars\":140000}]}}"
+    "input": "Fetch the top 5 trending repositories on GitHub for language Python.",
+    "output": "{\"response\":{\"language\":\"Python\",\"framework\":\"GitHub REST API\",\"endpoint\":\"/search/repositories\",\"params\":{\"q\":\"language:Python\",\"sort\":\"stars\",\"order\":\"desc\",\"per_page\":5},\"example_result\":[{\"name\":\"awesome-python\",\"owner\":\"vinta\",\"stars\":123456},{\"name\":\"httpx\",\"owner\":\"encode\",\"stars\":54321},{\"name\":\"fastapi\",\"owner\":\"tiangolo\",\"stars\":50000},{\"name\":\"scrapy\",\"owner\":\"scrapy\",\"stars\":45000},{\"name\":\"django\",\"owner\":\"django\",\"stars\":140000}]}}"
   },
   {
-    "output": "Write a Python function to compute the Levenshtein distance between two strings.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"def levenshtein(a: str, b: str) -> int:\\n    m, n = len(a), len(b)\\n    dp = [[0]*(n+1) for _ in range(m+1)]\\n    for i in range(m+1): dp[i][0] = i\\n    for j in range(n+1): dp[0][j] = j\\n    for i in range(1, m+1):\\n        for j in range(1, n+1):\\n            cost = 0 if a[i-1]==b[j-1] else 1\\n            dp[i][j] = min(dp[i-1][j]+1, dp[i][j-1]+1, dp[i-1][j-1]+cost)\\n    return dp[m][n]\"}}"
+    "input": "Write a Python function to compute the Levenshtein distance between two strings.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"def levenshtein(a: str, b: str) -> int:\\n    m, n = len(a), len(b)\\n    dp = [[0]*(n+1) for _ in range(m+1)]\\n    for i in range(m+1): dp[i][0] = i\\n    for j in range(n+1): dp[0][j] = j\\n    for i in range(1, m+1):\\n        for j in range(1, n+1):\\n            cost = 0 if a[i-1]==b[j-1] else 1\\n            dp[i][j] = min(dp[i-1][j]+1, dp[i][j-1]+1, dp[i-1][j-1]+cost)\\n    return dp[m][n]\"}}"
   },
   {
-    "output": "Provide a regular expression to validate a password: at least 8 chars, one uppercase, one digit, one special character.",
-    "input": "{\"response\":{\"regex\":\"^(?=.*[A-Z])(?=.*\\\\d)(?=.*[!@#$%^&*()_+\\\\-=[\\\\]{};':\\\"\\\\\\\\|,.<>/?]).{8,}$\"}}"
+    "input": "Provide a regular expression to validate a password: at least 8 chars, one uppercase, one digit, one special character.",
+    "output": "{\"response\":{\"regex\":\"^(?=.*[A-Z])(?=.*\\\\d)(?=.*[!@#$%^&*()_+\\\\-=[\\\\]{};':\\\"\\\\\\\\|,.<>/?]).{8,}$\"}}"
   },
   {
-    "output": "Return a shell command to find and delete .tmp files older than 7 days in /tmp.",
-    "input": "{\"response\":{\"command\":\"find /tmp -type f -name \\\"*.tmp\\\" -mtime +7 -exec rm {} \\\\;\"}}"
+    "input": "Return a shell command to find and delete .tmp files older than 7 days in /tmp.",
+    "output": "{\"response\":{\"command\":\"find /tmp -type f -name \\\"*.tmp\\\" -mtime +7 -exec rm {} \\\\;\"}}"
   },
   {
-    "output": "Compute the singular value decomposition of the matrix [[1,2],[3,4]].",
-    "input": "{\"response\":{\"u\":[[-0.4046,-0.9145],[-0.9145,0.4046]],\"s\":[5.46499,0.36597],\"vh\":[[-0.5760,-0.8174],[0.8174,-0.5760]]}}"
+    "input": "Compute the singular value decomposition of the matrix [[1,2],[3,4]].",
+    "output": "{\"response\":{\"u\":[[-0.4046,-0.9145],[-0.9145,0.4046]],\"s\":[5.46499,0.36597],\"vh\":[[-0.5760,-0.8174],[0.8174,-0.5760]]}}"
   },
   {
-    "output": "Generate a JSON Schema for an object with properties name (string), age (integer), email (string, format email).",
-    "input": "{\"response\":{\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"age\":{\"type\":\"integer\"},\"email\":{\"type\":\"string\",\"format\":\"email\"}},\"required\":[\"name\",\"email\"]}}"
+    "input": "Generate a JSON Schema for an object with properties name (string), age (integer), email (string, format email).",
+    "output": "{\"response\":{\"$schema\":\"http://json-schema.org/draft-07/schema#\",\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"age\":{\"type\":\"integer\"},\"email\":{\"type\":\"string\",\"format\":\"email\"}},\"required\":[\"name\",\"email\"]}}"
   },
   {
-    "output": "Optimize the SQL query to select users with last login in the last 30 days.",
-    "input": "{\"response\":{\"optimized_query\":\"SELECT * FROM users WHERE last_login >= NOW() - INTERVAL '30 days';\",\"indexes_suggested\":[\"CREATE INDEX idx_users_last_login ON users(last_login)\"]}}"
+    "input": "Optimize the SQL query to select users with last login in the last 30 days.",
+    "output": "{\"response\":{\"optimized_query\":\"SELECT * FROM users WHERE last_login >= NOW() - INTERVAL '30 days';\",\"indexes_suggested\":[\"CREATE INDEX idx_users_last_login ON users(last_login)\"]}}"
   },
   {
-    "output": "Summarize the following research abstract in 2 sentences: 'Deep learning has revolutionized computer vision by enabling models to learn hierarchical representations directly from data, significantly improving performance on tasks like image classification and object detection.'",
-    "input": "{\"response\":{\"summary\":\"Deep learning transforms computer vision by learning multi-level feature representations automatically. This approach greatly enhances performance in tasks such as image classification and object detection.\"}}"
+    "input": "Summarize the following research abstract in 2 sentences: 'Deep learning has revolutionized computer vision by enabling models to learn hierarchical representations directly from data, significantly improving performance on tasks like image classification and object detection.'",
+    "output": "{\"response\":{\"summary\":\"Deep learning transforms computer vision by learning multi-level feature representations automatically. This approach greatly enhances performance in tasks such as image classification and object detection.\"}}"
   },
   {
-    "output": "Translate the paragraph to French: 'Artificial intelligence is transforming industries by automating complex tasks and enabling data-driven decision making.'",
-    "input": "{\"response\":{\"original\":\"Artificial intelligence is transforming industries by automating complex tasks and enabling data-driven decision making.\",\"translation\":\"L'intelligence artificielle transforme les industries en automatisant des t\u00e2ches complexes et en permettant une prise de d\u00e9cision bas\u00e9e sur les donn\u00e9es.\"}}"
+    "input": "Translate the paragraph to French: 'Artificial intelligence is transforming industries by automating complex tasks and enabling data-driven decision making.'",
+    "output": "{\"response\":{\"original\":\"Artificial intelligence is transforming industries by automating complex tasks and enabling data-driven decision making.\",\"translation\":\"L'intelligence artificielle transforme les industries en automatisant des t\u00e2ches complexes et en permettant une prise de d\u00e9cision bas\u00e9e sur les donn\u00e9es.\"}}"
   },
   {
-    "output": "Extract named entities from the text: 'Barack Obama was born in Hawaii and served as the 44th President of the United States.'",
-    "input": "{\"response\":{\"text\":\"Barack Obama was born in Hawaii and served as the 44th President of the United States.\",\"entities\":[{\"text\":\"Barack Obama\",\"type\":\"PERSON\"},{\"text\":\"Hawaii\",\"type\":\"LOCATION\"},{\"text\":\"44th\",\"type\":\"ORDINAL\"},{\"text\":\"President\",\"type\":\"TITLE\"},{\"text\":\"United States\",\"type\":\"LOCATION\"}]}}"
+    "input": "Extract named entities from the text: 'Barack Obama was born in Hawaii and served as the 44th President of the United States.'",
+    "output": "{\"response\":{\"text\":\"Barack Obama was born in Hawaii and served as the 44th President of the United States.\",\"entities\":[{\"text\":\"Barack Obama\",\"type\":\"PERSON\"},{\"text\":\"Hawaii\",\"type\":\"LOCATION\"},{\"text\":\"44th\",\"type\":\"ORDINAL\"},{\"text\":\"President\",\"type\":\"TITLE\"},{\"text\":\"United States\",\"type\":\"LOCATION\"}]}}"
   },
   {
-    "output": "Identify and fix the bug in this JavaScript function that returns the square of a number but always returns undefined:  function sq(n) { n*n; }",
-    "input": "{\"response\":{\"bug\":\"Missing return statement\",\"fixed_code\":\"function sq(n) { return n * n; }\"}}"
+    "input": "Identify and fix the bug in this JavaScript function that returns the square of a number but always returns undefined:  function sq(n) { n*n; }",
+    "output": "{\"response\":{\"bug\":\"Missing return statement\",\"fixed_code\":\"function sq(n) { return n * n; }\"}}"
   },
   {
-    "output": "Simulate an API response for GET /products returning a list of products with id, name, price, and stock.",
-    "input": "{\"response\":{\"endpoint\":\"/products\",\"method\":\"GET\",\"response\":[{\"id\":1,\"name\":\"Laptop\",\"price\":999.99,\"stock\":25},{\"id\":2,\"name\":\"Smartphone\",\"price\":499.99,\"stock\":100},{\"id\":3,\"name\":\"Headphones\",\"price\":199.99,\"stock\":50}]}}"
+    "input": "Simulate an API response for GET /products returning a list of products with id, name, price, and stock.",
+    "output": "{\"response\":{\"endpoint\":\"/products\",\"method\":\"GET\",\"response\":[{\"id\":1,\"name\":\"Laptop\",\"price\":999.99,\"stock\":25},{\"id\":2,\"name\":\"Smartphone\",\"price\":499.99,\"stock\":100},{\"id\":3,\"name\":\"Headphones\",\"price\":199.99,\"stock\":50}]}}"
   },
   {
-    "output": "Perform k-means clustering on points [[1,2],[2,1],[8,9],[9,8]] with k=2 and initial centroids [[1,2],[8,9]].",
-    "input": "{\"response\":{\"points\":[[1,2],[2,1],[8,9],[9,8]],\"initial_centroids\":[[1,2],[8,9]],\"assignments\":[0,0,1,1],\"new_centroids\":[[1.5,1.5],[8.5,8.5]]}}"
+    "input": "Perform k-means clustering on points [[1,2],[2,1],[8,9],[9,8]] with k=2 and initial centroids [[1,2],[8,9]].",
+    "output": "{\"response\":{\"points\":[[1,2],[2,1],[8,9],[9,8]],\"initial_centroids\":[[1,2],[8,9]],\"assignments\":[0,0,1,1],\"new_centroids\":[[1.5,1.5],[8.5,8.5]]}}"
   },
   {
-    "output": "Provide a bash script to monitor memory usage and alert if usage exceeds 90%.",
-    "input": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/usr/bin/env bash\\nTHRESH=90\\nusage=$(free | awk '/Mem:/ { printf(\\\"%.0f\\\", $3/$2 * 100) }')\\nif [ \\\"$usage\\\" -gt \\\"$THRESH\\\" ]; then\\n  echo \\\"Memory usage is ${usage}%\\\" | mail -s \\\"High Memory Alert\\\" admin@example.com\\nfi\"}}"
+    "input": "Provide a bash script to monitor memory usage and alert if usage exceeds 90%.",
+    "output": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/usr/bin/env bash\\nTHRESH=90\\nusage=$(free | awk '/Mem:/ { printf(\\\"%.0f\\\", $3/$2 * 100) }')\\nif [ \\\"$usage\\\" -gt \\\"$THRESH\\\" ]; then\\n  echo \\\"Memory usage is ${usage}%\\\" | mail -s \\\"High Memory Alert\\\" admin@example.com\\nfi\"}}"
   },
   {
-    "output": "Write a JQL query to find issues in project ABC with status Open assigned to the current user.",
-    "input": "{\"response\":{\"jql\":\"project = ABC AND status = Open AND assignee = currentUser() ORDER BY created DESC\"}}"
+    "input": "Write a JQL query to find issues in project ABC with status Open assigned to the current user.",
+    "output": "{\"response\":{\"jql\":\"project = ABC AND status = Open AND assignee = currentUser() ORDER BY created DESC\"}}"
   },
   {
-    "output": "Generate an OpenAPI spec for a POST /login endpoint with JSON body {username, password} returning a JWT token.",
-    "input": "{\"response\":{\"openapi\":\"3.0.0\",\"paths\":{\"/login\":{\"post\":{\"requestBody\":{\"required\":true,\"content\":{\"application/json\":{\"schema\":{\"type\":\"object\",\"properties\":{\"username\":{\"type\":\"string\"},\"password\":{\"type\":\"string\"}},\"required\":[\"username\",\"password\"]}}}},\"responses\":{\"200\":{\"description\":\"Successful login\",\"content\":{\"application/json\":{\"schema\":{\"type\":\"object\",\"properties\":{\"token\":{\"type\":\"string\"}}}}}}}}}}}}"
+    "input": "Generate an OpenAPI spec for a POST /login endpoint with JSON body {username, password} returning a JWT token.",
+    "output": "{\"response\":{\"openapi\":\"3.0.0\",\"paths\":{\"/login\":{\"post\":{\"requestBody\":{\"required\":true,\"content\":{\"application/json\":{\"schema\":{\"type\":\"object\",\"properties\":{\"username\":{\"type\":\"string\"},\"password\":{\"type\":\"string\"}},\"required\":[\"username\",\"password\"]}}}},\"responses\":{\"200\":{\"description\":\"Successful login\",\"content\":{\"application/json\":{\"schema\":{\"type\":\"object\",\"properties\":{\"token\":{\"type\":\"string\"}}}}}}}}}}}}"
   },
   {
-    "output": "Calculate the probability of drawing exactly 2 aces in a 5-card hand from a standard 52-card deck.",
-    "input": "{\"response\":{\"draws\":5,\"successes\":2,\"deck_size\":52,\"ace_count\":4,\"probability\":0.0399}}"
+    "input": "Calculate the probability of drawing exactly 2 aces in a 5-card hand from a standard 52-card deck.",
+    "output": "{\"response\":{\"draws\":5,\"successes\":2,\"deck_size\":52,\"ace_count\":4,\"probability\":0.0399}}"
   },
   {
-    "output": "Solve the definite integral \u222b\u2080\u00b9 x\u00b2 dx and provide the numeric result.",
-    "input": "{\"response\":{\"integral\":\"\u222b\u2080\u00b9 x\u00b2 dx\",\"steps\":[\"Antiderivative of x\u00b2 is x\u00b3/3\",\"Evaluate from 0 to 1: (1\u00b3/3) - (0\u00b3/3) = 1/3\"],\"result\":0.3333}}"
+    "input": "Solve the definite integral \u222b\u2080\u00b9 x\u00b2 dx and provide the numeric result.",
+    "output": "{\"response\":{\"integral\":\"\u222b\u2080\u00b9 x\u00b2 dx\",\"steps\":[\"Antiderivative of x\u00b2 is x\u00b3/3\",\"Evaluate from 0 to 1: (1\u00b3/3) - (0\u00b3/3) = 1/3\"],\"result\":0.3333}}"
   },
   {
-    "output": "Generate CSS to create a responsive grid layout with 3 columns on desktop and 1 column on screens narrower than 600px.",
-    "input": "{\"response\":{\"language\":\"css\",\"code\":\" .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }\\n @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }\"}}"
+    "input": "Generate CSS to create a responsive grid layout with 3 columns on desktop and 1 column on screens narrower than 600px.",
+    "output": "{\"response\":{\"language\":\"css\",\"code\":\" .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }\\n @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }\"}}"
   },
   {
-    "output": "Write a pandas snippet to pivot a DataFrame df with columns ['user','month','value'] so months become columns.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\npivoted = df.pivot(index='user', columns='month', values='value').reset_index()\\nprint(pivoted)\"}}"
+    "input": "Write a pandas snippet to pivot a DataFrame df with columns ['user','month','value'] so months become columns.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\npivoted = df.pivot(index='user', columns='month', values='value').reset_index()\\nprint(pivoted)\"}}"
   },
   {
-    "output": "Given a list of daily transactions, compute the 7-day rolling average of 'amount'.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\n\\ndf['rolling_avg_7d'] = df['amount'].rolling(window=7).mean()\\nprint(df)\"}}"
+    "input": "Given a list of daily transactions, compute the 7-day rolling average of 'amount'.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import pandas as pd\\n\\ndf['rolling_avg_7d'] = df['amount'].rolling(window=7).mean()\\nprint(df)\"}}"
   },
   {
-    "output": "Convert the XML `<user id=\\\"1\\\"><name>John</name></user>` to JSON.",
-    "input": "{\"response\":{\"response\":{\"user\":{\"id\":\"1\",\"name\":\"John\"}}}}"
+    "input": "Convert the XML `<user id=\\\"1\\\"><name>John</name></user>` to JSON.",
+    "output": "{\"response\":{\"response\":{\"user\":{\"id\":\"1\",\"name\":\"John\"}}}}"
   },
   {
-    "output": "Write a TensorFlow 2.x script to define a simple CNN for MNIST and train it for 5 epochs.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import tensorflow as tf\\nfrom tensorflow.keras import layers, models\\n\\n# Load data\\n(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()\\nx_train = x_train[..., None] / 255.0\\nx_test  = x_test[..., None]  / 255.0\\n\\n# Build model\\nmodel = models.Sequential([\\n    layers.Conv2D(32, 3, activation='relu', input_shape=(28,28,1)),\\n    layers.MaxPool2D(),\\n    layers.Conv2D(64, 3, activation='relu'),\\n    layers.MaxPool2D(),\\n    layers.Flatten(),\\n    layers.Dense(128, activation='relu'),\\n    layers.Dense(10, activation='softmax')\\n])\\nmodel.compile(optimizer='adam',\\n              loss='sparse_categorical_crossentropy',\\n              metrics=['accuracy'])\\n\\n# Train\\nmodel.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))\"}}"
+    "input": "Write a TensorFlow 2.x script to define a simple CNN for MNIST and train it for 5 epochs.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import tensorflow as tf\\nfrom tensorflow.keras import layers, models\\n\\n# Load data\\n(x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()\\nx_train = x_train[..., None] / 255.0\\nx_test  = x_test[..., None]  / 255.0\\n\\n# Build model\\nmodel = models.Sequential([\\n    layers.Conv2D(32, 3, activation='relu', input_shape=(28,28,1)),\\n    layers.MaxPool2D(),\\n    layers.Conv2D(64, 3, activation='relu'),\\n    layers.MaxPool2D(),\\n    layers.Flatten(),\\n    layers.Dense(128, activation='relu'),\\n    layers.Dense(10, activation='softmax')\\n])\\nmodel.compile(optimizer='adam',\\n              loss='sparse_categorical_crossentropy',\\n              metrics=['accuracy'])\\n\\n# Train\\nmodel.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))\"}}"
   },
   {
-    "output": "Provide a PyTorch DataLoader snippet for loading images from `data/train` with batch size 64 and torch transforms.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import torch\\nfrom torchvision import datasets, transforms\\n\\ntransform = transforms.Compose([\\n    transforms.Resize((128,128)),\\n    transforms.RandomHorizontalFlip(),\\n    transforms.ToTensor(),\\n])\\ndataset = datasets.ImageFolder('data/train', transform=transform)\\nloader = torch.utils.data.DataLoader(\\n    dataset, batch_size=64, shuffle=True, num_workers=4\\n)\\nfor images, labels in loader:\\n    # training step\\n    pass\"}}"
+    "input": "Provide a PyTorch DataLoader snippet for loading images from `data/train` with batch size 64 and torch transforms.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import torch\\nfrom torchvision import datasets, transforms\\n\\ntransform = transforms.Compose([\\n    transforms.Resize((128,128)),\\n    transforms.RandomHorizontalFlip(),\\n    transforms.ToTensor(),\\n])\\ndataset = datasets.ImageFolder('data/train', transform=transform)\\nloader = torch.utils.data.DataLoader(\\n    dataset, batch_size=64, shuffle=True, num_workers=4\\n)\\nfor images, labels in loader:\\n    # training step\\n    pass\"}}"
   },
   {
-    "output": "Write a MongoDB aggregation pipeline to compute total sales per product in `orders` collection.",
-    "input": "{\"response\":{\"pipeline\":[{\"$unwind\":\"$items\"},{\"$group\":{\"_id\":\"$items.productId\",\"totalSales\":{\"$sum\":{\"$multiply\":[\"$items.quantity\",\"$items.price\"]}}}},{\"$project\":{\"productId\":\"$_id\",\"totalSales\":1,\"_id\":0}}]}}"
+    "input": "Write a MongoDB aggregation pipeline to compute total sales per product in `orders` collection.",
+    "output": "{\"response\":{\"pipeline\":[{\"$unwind\":\"$items\"},{\"$group\":{\"_id\":\"$items.productId\",\"totalSales\":{\"$sum\":{\"$multiply\":[\"$items.quantity\",\"$items.price\"]}}}},{\"$project\":{\"productId\":\"$_id\",\"totalSales\":1,\"_id\":0}}]}}"
   },
   {
-    "output": "Show an AWS CLI command to copy all objects from `s3://source-bucket` to `s3://dest-bucket` recursively.",
-    "input": "{\"response\":{\"command\":\"aws s3 cp s3://source-bucket s3://dest-bucket --recursive\"}}"
+    "input": "Show an AWS CLI command to copy all objects from `s3://source-bucket` to `s3://dest-bucket` recursively.",
+    "output": "{\"response\":{\"command\":\"aws s3 cp s3://source-bucket s3://dest-bucket --recursive\"}}"
   },
   {
-    "output": "Create a bash script `rotate_logs.sh` that moves `.log` files older than 30 days from `/var/log/myapp` to `/var/log/myapp/archive`.",
-    "input": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/usr/bin/env bash\\nfind /var/log/myapp -type f -name '*.log' -mtime +30 \\\\\\n  -exec mv {} /var/log/myapp/archive/ \\\\;\"}}"
+    "input": "Create a bash script `rotate_logs.sh` that moves `.log` files older than 30 days from `/var/log/myapp` to `/var/log/myapp/archive`.",
+    "output": "{\"response\":{\"language\":\"bash\",\"code\":\"#!/usr/bin/env bash\\nfind /var/log/myapp -type f -name '*.log' -mtime +30 \\\\\\n  -exec mv {} /var/log/myapp/archive/ \\\\;\"}}"
   },
   {
-    "output": "Provide a `sed` one-liner to convert all TABs to four spaces in file `script.sh`.",
-    "input": "{\"response\":{\"command\":\"sed -i 's/\\\\t/    /g' script.sh\"}}"
+    "input": "Provide a `sed` one-liner to convert all TABs to four spaces in file `script.sh`.",
+    "output": "{\"response\":{\"command\":\"sed -i 's/\\\\t/    /g' script.sh\"}}"
   },
   {
-    "output": "Implement Dijkstra\u2019s algorithm in Python given adjacency list `graph`.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import heapq\\n\\ndef dijkstra(graph, src):\\n    dist = {v: float('inf') for v in graph}\\n    dist[src] = 0\\n    pq = [(0, src)]\\n    while pq:\\n        d, u = heapq.heappop(pq)\\n        if d > dist[u]: continue\\n        for v, w in graph[u]:\\n            nd = d + w\\n            if nd < dist[v]:\\n                dist[v] = nd\\n                heapq.heappush(pq, (nd, v))\\n    return dist\"}}"
+    "input": "Implement Dijkstra\u2019s algorithm in Python given adjacency list `graph`.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import heapq\\n\\ndef dijkstra(graph, src):\\n    dist = {v: float('inf') for v in graph}\\n    dist[src] = 0\\n    pq = [(0, src)]\\n    while pq:\\n        d, u = heapq.heappop(pq)\\n        if d > dist[u]: continue\\n        for v, w in graph[u]:\\n            nd = d + w\\n            if nd < dist[v]:\\n                dist[v] = nd\\n                heapq.heappush(pq, (nd, v))\\n    return dist\"}}"
   },
   {
-    "output": "Write a SQL query using `CASE WHEN` to pivot sales by quarter from table `sales(year, quarter, amount)`.",
-    "input": "{\"response\":{\"query\":\"SELECT year,\\n       SUM(CASE WHEN quarter=1 THEN amount ELSE 0 END) AS Q1,\\n       SUM(CASE WHEN quarter=2 THEN amount ELSE 0 END) AS Q2,\\n       SUM(CASE WHEN quarter=3 THEN amount ELSE 0 END) AS Q3,\\n       SUM(CASE WHEN quarter=4 THEN amount ELSE 0 END) AS Q4\\nFROM sales\\nGROUP BY year;\"}}"
+    "input": "Write a SQL query using `CASE WHEN` to pivot sales by quarter from table `sales(year, quarter, amount)`.",
+    "output": "{\"response\":{\"query\":\"SELECT year,\\n       SUM(CASE WHEN quarter=1 THEN amount ELSE 0 END) AS Q1,\\n       SUM(CASE WHEN quarter=2 THEN amount ELSE 0 END) AS Q2,\\n       SUM(CASE WHEN quarter=3 THEN amount ELSE 0 END) AS Q3,\\n       SUM(CASE WHEN quarter=4 THEN amount ELSE 0 END) AS Q4\\nFROM sales\\nGROUP BY year;\"}}"
   },
   {
-    "output": "Show a Redis CLI command to publish message `\"reload\"` on channel `config_updates`.",
-    "input": "{\"response\":{\"command\":\"redis-cli PUBLISH config_updates reload\"}}"
+    "input": "Show a Redis CLI command to publish message `\"reload\"` on channel `config_updates`.",
+    "output": "{\"response\":{\"command\":\"redis-cli PUBLISH config_updates reload\"}}"
   },
   {
-    "output": "Construct a PostGIS query to find all `locations` within 10km of point `(-73.98, 40.75)`.",
-    "input": "{\"response\":{\"query\":\"SELECT * FROM locations\\nWHERE ST_DWithin(\\n  geography(geom),\\n  geography(ST_SetSRID(ST_MakePoint(-73.98,40.75),4326)),\\n  10000\\n);\"}}"
+    "input": "Construct a PostGIS query to find all `locations` within 10km of point `(-73.98, 40.75)`.",
+    "output": "{\"response\":{\"query\":\"SELECT * FROM locations\\nWHERE ST_DWithin(\\n  geography(geom),\\n  geography(ST_SetSRID(ST_MakePoint(-73.98,40.75),4326)),\\n  10000\\n);\"}}"
   },
   {
-    "output": "Provide a regex to match ISO-8601 timestamps like `2025-08-02T15:30:00Z`.",
-    "input": "{\"response\":{\"regex\":\"^\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}Z$\"}}"
+    "input": "Provide a regex to match ISO-8601 timestamps like `2025-08-02T15:30:00Z`.",
+    "output": "{\"response\":{\"regex\":\"^\\\\d{4}-\\\\d{2}-\\\\d{2}T\\\\d{2}:\\\\d{2}:\\\\d{2}Z$\"}}"
   },
   {
-    "output": "Write a YARA rule to detect PE files exporting function `VirtualAlloc`.",
-    "input": "{\"response\":{\"rule_name\":\"Detect_VirtualAlloc\",\"yara\":\"rule Detect_VirtualAlloc {\\n    meta:\\n        description = \\\"Detect PE export of VirtualAlloc\\\"\\n    strings:\\n        $exp = \\\"VirtualAlloc\\\" wide ascii\\n    condition:\\n        pe.exports and any of ($exp)\\n}\"}}"
+    "input": "Write a YARA rule to detect PE files exporting function `VirtualAlloc`.",
+    "output": "{\"response\":{\"rule_name\":\"Detect_VirtualAlloc\",\"yara\":\"rule Detect_VirtualAlloc {\\n    meta:\\n        description = \\\"Detect PE export of VirtualAlloc\\\"\\n    strings:\\n        $exp = \\\"VirtualAlloc\\\" wide ascii\\n    condition:\\n        pe.exports and any of ($exp)\\n}\"}}"
   },
   {
-    "output": "Create a Puppet manifest to install and start `nginx` service.",
-    "input": "{\"response\":{\"manifest\":\"package { 'nginx': ensure => installed } ->\\nservice { 'nginx': ensure => running, enable => true }\"}}"
+    "input": "Create a Puppet manifest to install and start `nginx` service.",
+    "output": "{\"response\":{\"manifest\":\"package { 'nginx': ensure => installed } ->\\nservice { 'nginx': ensure => running, enable => true }\"}}"
   },
   {
-    "output": "Build a Docker Compose `docker-compose.yml` for a Python web app and PostgreSQL, with network and volumes.",
-    "input": "{\"response\":{\"docker_compose\":\"version: '3.8'\\nservices:\\n  web:\\n    build: .\\n    ports:\\n      - '8000:8000'\\n    depends_on:\\n      - db\\n    networks:\\n      - appnet\\n  db:\\n    image: postgres:13\\n    environment:\\n      POSTGRES_DB: appdb\\n      POSTGRES_USER: user\\n      POSTGRES_PASSWORD: pass\\n    volumes:\\n      - db_data:/var/lib/postgresql/data\\n    networks:\\n      - appnet\\nvolumes:\\n  db_data:\\nnetworks:\\n  appnet:\"}}"
+    "input": "Build a Docker Compose `docker-compose.yml` for a Python web app and PostgreSQL, with network and volumes.",
+    "output": "{\"response\":{\"docker_compose\":\"version: '3.8'\\nservices:\\n  web:\\n    build: .\\n    ports:\\n      - '8000:8000'\\n    depends_on:\\n      - db\\n    networks:\\n      - appnet\\n  db:\\n    image: postgres:13\\n    environment:\\n      POSTGRES_DB: appdb\\n      POSTGRES_USER: user\\n      POSTGRES_PASSWORD: pass\\n    volumes:\\n      - db_data:/var/lib/postgresql/data\\n    networks:\\n      - appnet\\nvolumes:\\n  db_data:\\nnetworks:\\n  appnet:\"}}"
   },
   {
-    "output": "Generate an `nginx.conf` snippet for reverse\u2010proxying WebSocket `/ws` to `localhost:8080`.",
-    "input": "{\"response\":{\"config\":\"map $http_upgrade $connection_upgrade {\\n    default upgrade;\\n    ''      close;\\n}\\nserver {\\n    listen 80;\\n    location /ws/ {\\n        proxy_pass http://localhost:8080;\\n        proxy_http_version 1.1;\\n        proxy_set_header Upgrade $http_upgrade;\\n        proxy_set_header Connection $connection_upgrade;\\n    }\\n}\"}}"
+    "input": "Generate an `nginx.conf` snippet for reverse\u2010proxying WebSocket `/ws` to `localhost:8080`.",
+    "output": "{\"response\":{\"config\":\"map $http_upgrade $connection_upgrade {\\n    default upgrade;\\n    ''      close;\\n}\\nserver {\\n    listen 80;\\n    location /ws/ {\\n        proxy_pass http://localhost:8080;\\n        proxy_http_version 1.1;\\n        proxy_set_header Upgrade $http_upgrade;\\n        proxy_set_header Connection $connection_upgrade;\\n    }\\n}\"}}"
   },
   {
-    "output": "Write a Shopify Liquid snippet to loop over `products` and show title and price.",
-    "input": "{\"response\":{\"code\":\"{% for product in products %}\\n  <div class=\\\"product\\\">\\n    <h2>{{ product.title }}</h2>\\n    <p>{{ product.price | money }}</p>\\n  </div>\\n{% endfor %}\"}}"
+    "input": "Write a Shopify Liquid snippet to loop over `products` and show title and price.",
+    "output": "{\"response\":{\"code\":\"{% for product in products %}\\n  <div class=\\\"product\\\">\\n    <h2>{{ product.title }}</h2>\\n    <p>{{ product.price | money }}</p>\\n  </div>\\n{% endfor %}\"}}"
   },
   {
-    "output": "Provide LaTeX code to display the quadratic formula centered in display mode.",
-    "input": "{\"response\":{\"latex\":\"$$x = \\\\frac{-b \\\\pm \\\\sqrt{b^2 - 4ac}}{2a}$$\"}}"
+    "input": "Provide LaTeX code to display the quadratic formula centered in display mode.",
+    "output": "{\"response\":{\"latex\":\"$$x = \\\\frac{-b \\\\pm \\\\sqrt{b^2 - 4ac}}{2a}$$\"}}"
   },
   {
-    "output": "Show a SciPy snippet to minimize Rosenbrock function starting at `(0,0)`.",
-    "input": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\nfrom scipy.optimize import minimize\\n\\ndef rosen(x): return sum(100*(x[1:]-x[:-1]**2)**2 + (1-x[:-1])**2)\\nres = minimize(rosen, np.array([0.0,0.0]), method='BFGS')\\nprint(res.x, res.success)\"}}"
+    "input": "Show a SciPy snippet to minimize Rosenbrock function starting at `(0,0)`.",
+    "output": "{\"response\":{\"language\":\"python\",\"code\":\"import numpy as np\\nfrom scipy.optimize import minimize\\n\\ndef rosen(x): return sum(100*(x[1:]-x[:-1]**2)**2 + (1-x[:-1])**2)\\nres = minimize(rosen, np.array([0.0,0.0]), method='BFGS')\\nprint(res.x, res.success)\"}}"
   },
   {
-    "output": "Give a JavaScript example using `Promise.all` to fetch `/a` and `/b` concurrently.",
-    "input": "{\"response\":{\"language\":\"javascript\",\"code\":\"Promise.all([\\n  fetch('/a').then(r=>r.json()),\\n  fetch('/b').then(r=>r.json())\\n]).then(([aData, bData]) => {\\n  console.log(aData, bData);\\n});\"}}"
+    "input": "Give a JavaScript example using `Promise.all` to fetch `/a` and `/b` concurrently.",
+    "output": "{\"response\":{\"language\":\"javascript\",\"code\":\"Promise.all([\\n  fetch('/a').then(r=>r.json()),\\n  fetch('/b').then(r=>r.json())\\n]).then(([aData, bData]) => {\\n  console.log(aData, bData);\\n});\"}}"
   },
   {
-    "output": "Write a C# LINQ query to select even numbers from `nums` and order descending.",
-    "input": "{\"response\":{\"language\":\"csharp\",\"code\":\"var evens = nums\\n    .Where(n => n % 2 == 0)\\n    .OrderByDescending(n => n)\\n    .ToList();\"}}"
+    "input": "Write a C# LINQ query to select even numbers from `nums` and order descending.",
+    "output": "{\"response\":{\"language\":\"csharp\",\"code\":\"var evens = nums\\n    .Where(n => n % 2 == 0)\\n    .OrderByDescending(n => n)\\n    .ToList();\"}}"
   },
   {
-    "output": "Implement a complex number class in Go with methods `Add` and `Mul`.",
-    "input": "{\"response\":{\"language\":\"go\",\"code\":\"package complexnum\\n\\ntype Complex struct { R, I float64 }\\n\\nfunc (a Complex) Add(b Complex) Complex {\\n    return Complex{a.R + b.R, a.I + b.I}\\n}\\n\\nfunc (a Complex) Mul(b Complex) Complex {\\n    return Complex{\\n        a.R*b.R - a.I*b.I,\\n        a.R*b.I + a.I*b.R,\\n    }\\n}\"}}"
+    "input": "Implement a complex number class in Go with methods `Add` and `Mul`.",
+    "output": "{\"response\":{\"language\":\"go\",\"code\":\"package complexnum\\n\\ntype Complex struct { R, I float64 }\\n\\nfunc (a Complex) Add(b Complex) Complex {\\n    return Complex{a.R + b.R, a.I + b.I}\\n}\\n\\nfunc (a Complex) Mul(b Complex) Complex {\\n    return Complex{\\n        a.R*b.R - a.I*b.I,\\n        a.R*b.I + a.I*b.R,\\n    }\\n}\"}}"
   }
 ]
 
