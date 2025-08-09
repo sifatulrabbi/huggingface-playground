@@ -3,16 +3,15 @@ from transformers.pipelines import pipeline
 from transformers.utils.logging import set_verbosity_error
 from langchain_huggingface import HuggingFacePipeline
 from langchain.prompts import PromptTemplate
-from icecream import ic
-
 
 set_verbosity_error()
 
+modelpath = "/Users/sifatul/.lmstudio/models/lmstudio-community/gpt-oss-20b-GGUF/gpt-oss-20b-MXFP4.gguf"
 
 device = torch.device("mps")
 model = pipeline(
     task="text-generation",
-    model="Qwen/Qwen3-0.6B",
+    model=modelpath,
     device=device,
     truncation=True,
     max_length=1024 * 10,

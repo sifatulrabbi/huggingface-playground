@@ -444,4 +444,3 @@
     "output": "{\"response\":{\"language\":\"go\",\"code\":\"package complexnum\\n\\ntype Complex struct { R, I float64 }\\n\\nfunc (a Complex) Add(b Complex) Complex {\\n    return Complex{a.R + b.R, a.I + b.I}\\n}\\n\\nfunc (a Complex) Mul(b Complex) Complex {\\n    return Complex{\\n        a.R*b.R - a.I*b.I,\\n        a.R*b.I + a.I*b.R,\\n    }\\n}\"}}"
   }
 ]
-
