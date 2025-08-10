@@ -16,3 +16,5 @@ torchvision==0.24.0.dev20250802
 transformers==4.54.1
 uv==0.8.8
 uvicorn==0.35.0
+PyPDF2==3.0.1
+langchain-community==0.3.27
